@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swimmer on HC Swimsite</title>
+    <link>http://example.org/roles/swimmer/</link>
+    <description>Recent content in Swimmer on HC Swimsite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/roles/swimmer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Julian Ebeli</title>
+      <link>http://example.org/people/julian-ebeli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/people/julian-ebeli/</guid>
+      <description>Julian made our website</description>
+    </item>
+    
+    <item>
+      <title>Maude Ebeli</title>
+      <link>http://example.org/people/maude-ebeli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/people/maude-ebeli/</guid>
+      <description>Maude loves swimming</description>
+    </item>
+    
+    <item>
+      <title>Sam Castle</title>
+      <link>http://example.org/people/sam-castle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/people/sam-castle/</guid>
+      <description>Budding champion</description>
+    </item>
+    
+  </channel>
+</rss>

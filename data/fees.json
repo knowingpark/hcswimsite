@@ -1,0 +1,50 @@
+{
+    "Target": [
+        {
+            "membership": "235",
+            "registration": "110",
+            "coaching": "210",
+            "training": "47"
+        }
+    ],
+    "Senior State": [
+        {
+            "membership": "235",
+            "registration": "110",
+            "coaching": "210",
+            "training": "47"
+        }
+    ],
+    "State": [
+        {
+            "membership": "235",
+            "registration": "110",
+            "coaching": "190",
+            "training": "46"
+        }
+    ],
+    "Development": [
+        {
+            "membership": "235",
+            "registration": "110",
+            "coaching": "140",
+            "training": "46"
+        }
+    ],
+    "Junior": [
+        {
+            "membership": "135",
+            "registration": "110",
+            "coaching": "110",
+            "training": "44"
+        }
+    ],
+    "Junior Racers": [
+        {
+            "membership": "50",
+            "registration": "110",
+            "coaching": "90",
+            "training": "42"
+        }
+    ]
+}

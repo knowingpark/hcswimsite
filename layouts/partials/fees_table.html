@@ -1,0 +1,33 @@
+{{ define "main" }}
+{{$squadname := index .Params.squads 0 }}
+<div temp="fee_table" class=" {{ .Site.Params.css_sitecentre }}">
+  <h1 class='f2'>{{$squadname}} squad</h1>
+  <h2 class='f3'>Fees</h2>
+  <div class="pa4">
+    <div class="overflow-auto">
+      <table class="f6 w-100 mw8 center" cellspacing="0">
+        <thead>
+          <tr>
+            <th class="fw6 bb b--black-20 tl pb3 pr3 ">Annual Club Membership</th>
+            <th class="fw6 bb b--black-20 tl pb3 pr3 ">Annual Swimming Tas Registration</th>
+            <th class="fw6 bb b--black-20 tl pb3 pr3 ">Monthly Coaching Fee</th>
+            <th class="fw6 bb b--black-20 tl pb3 pr3 ">Training Weeks per Year</th>
+          </tr>
+        </thead>
+        <tbody class="lh-copy">
+          {{ range $row := index .Site.Data.fees $squadname }}
+          <tr>
+            <td class="pv3 pr3 bb b--black-20">{{ $row.membership }}</td>
+            <td class="pv3 pr3 bb b--black-20">{{ $row.registration }}</td>
+            <td class="pv3 pr3 bb b--black-20">{{ $row.coaching }}</td>
+            <td class="pv3 pr3 bb b--black-20">{{ $row.training }}</td>
+          </tr>
+          {{end}}
+        </tbody>
+      </table>
+    </div>
+  </div>
+   {{ .Content }}
+</div>
+
+{{ end }}

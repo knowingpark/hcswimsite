@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contacts on HC Swimsite</title>
+    <link>/roles/contacts/</link>
+    <description>Recent content in Contacts on HC Swimsite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/roles/contacts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Collegiate Pool</title>
+      <link>/people/people-collegiate-pool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/people/people-collegiate-pool/</guid>
+      <description>The Collegiate Pool is a 25m, six-lane, heated indoor pool located on the corner of Molle &amp;amp; Davey Street in the city of Hobart.
+The Collegiate Pool is open to the public and offers a safe, clean and friendly environment to swim.
+Entry to the Collegiate Pool is via the School entrance on the corner of Molle &amp;amp; Macquarie Streets.
+We are open seven days a week and offer:
+ Learn to Swim Lap Swimming Fitness Squad training options  Our professional teachers provided quality service and are passionate about assisting individual&amp;rsquo;s to improve their health, fitness and life skills.</description>
+    </item>
+    
+    <item>
+      <title>HC Swim Club</title>
+      <link>/people/people-hc-swim-club/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/people/people-hc-swim-club/</guid>
+      <description>Postal Address HC Swim Club Inc.
+PO Box 109
+Sandy Bay, TAS 7006
+Bank Transfers The following details are provided in the event members need to make Bank Transfers to the club. These are for HC Swim Club payments only (e.g for purchase of Uniform or payment for entry to Club Event).
+Acct Name: Hutchins Collegiate Swim Club Inc.
+BSB: 017 010 ACCT: 1093 27269
+Always put your Surname and an Item Summary in the transfer description.</description>
+    </item>
+    
+    <item>
+      <title>Jane Pederson</title>
+      <link>/people/people-jane-pederson/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/people/people-jane-pederson/</guid>
+      <description>The place would fall apart without her</description>
+    </item>
+    
+    <item>
+      <title>Maddi Palser</title>
+      <link>/people/people-maddi-palser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/people/people-maddi-palser/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

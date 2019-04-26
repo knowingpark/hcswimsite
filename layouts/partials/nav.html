@@ -1,0 +1,16 @@
+{{ $navclass := .Site.Params.css_navclass_a }}
+<nav class="pt2 bb">
+	<ul class="list pl0">
+		<li >
+			<a class="{{$navclass}}" href="/" title="HC Swim Club">
+				<img class="h4" src="{{.Site.Params.baseURL}}/images/logo.png" alt="HC Swim Club">
+			</a>
+		</li>
+		{{ range .Site.Sections }}
+		<li><a class="{{$navclass}}" href="{{.URL}}" >{{ .Title | singularize }}</a></li>
+		{{ end}}
+		<li><a class="{{$navclass}}"  href="{{ .Site.Params.baseURL }}/club/club-how-to-join/" title="Joining">Join Us</a> </li>
+		<li><a class="{{$navclass}}" href="#" title="Store">Store</a></li>
+		<li><a class="{{$navclass}}" href="https://mylane.swimming.org.au/" title="My Lane" target="_blank">My Lane</a></li>
+	</ul>
+</nav>

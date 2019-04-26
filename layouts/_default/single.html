@@ -1,0 +1,10 @@
+{{ define "main" }}
+
+     <div>
+          <h1>{{.Title}}</h1>
+          <div>{{if .Params.phone}}Phone: {{.Params.phone}}{{end}}</div>
+          <div>{{.Content}}</div>
+     </div>
+
+{{ end }}
+

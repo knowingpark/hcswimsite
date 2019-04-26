@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pools on HC Swimsite</title>
+    <link>/pools/</link>
+    <description>Recent content in Pools on HC Swimsite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Apr 2019 00:05:46 +0000</lastBuildDate>
+    
+	<atom:link href="/pools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Collegiate</title>
+      <link>/pools/collegiate/</link>
+      <pubDate>Sat, 06 Apr 2019 00:05:46 +0000</pubDate>
+      
+      <guid>/pools/collegiate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hobart Aquatic Centre</title>
+      <link>/pools/hobart-aquatic-centre/</link>
+      <pubDate>Sat, 30 Mar 2019 04:45:46 +0000</pubDate>
+      
+      <guid>/pools/hobart-aquatic-centre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Launceston Acquatic Centre</title>
+      <link>/pools/launceston-acquatic-centre/</link>
+      <pubDate>Sat, 30 Mar 2019 04:45:48 +0000</pubDate>
+      
+      <guid>/pools/launceston-acquatic-centre/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

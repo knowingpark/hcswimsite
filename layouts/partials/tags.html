@@ -1,0 +1,72 @@
+{{ $navclass := .Site.Params.css_navclass_a }}
+
+<!-- <div> page type: {{.Type}} </div>
+ -->
+
+{{if eq .Type "events"}}
+<ul class="pl0">
+  <li class=" dib ">Event Types:</li>
+  {{ range $key, $pages := .Site.Taxonomies.event_types }}
+  <li class="dib ml3">
+    <a class=" {{$navclass}} " href="/event_types/{{$key}}">
+      <div>{{$key}}</div>
+    </a>
+  </li>
+  {{end}}
+</ul>
+{{ end }}
+
+
+{{if (or (eq .Type "people") (eq .Type "roles"))}}
+<ul class="pl0">
+  <li class=" dib ">Roles:</li>
+  {{ range $key, $pages := .Site.Taxonomies.roles }}
+  <li class="dib ml3">
+    <a class=" {{$navclass}} " href="/roles/{{$key}}">
+      <div>{{$key}}</div>
+    </a>
+  </li>
+  {{end}}
+</ul>
+{{ end }}
+
+
+
+{{if (or (eq .Type "club") (eq .Type "topics"))}}
+<ul class="pl0">
+  <li class=" dib ">Topics:</li>
+  {{ range $key, $pages := .Site.Taxonomies.topics }}
+  <li  class="dib ml3">
+    <a class=" {{$navclass}} " href="/topics/{{$key}}">
+      <div>{{$key}}</div>
+    </a>
+  </li>
+  {{end}}
+</ul>
+{{ end }}
+
+{{if eq .Type "squads"}}
+<ul class="pl0">
+  <li class=" dib ">Squads:</li>
+  {{ range $key, $pages := .Site.Taxonomies.squads }}
+  <li class="dib ml3">
+    <a class="{{$navclass}} " href="/squads/{{$key}}">
+      <div>{{$key}}</div>
+    </a>
+  </li>
+  {{end}}
+</ul>
+{{ end }}
+
+{{if eq .Type "pools"}}
+<ul class="pl0">
+  <li class=" dib ">Pools:</li>
+  {{ range $key, $pages := .Site.Taxonomies.pools }}
+  <li class="dib ml3">
+    <a class="{{$navclass}} " href="/pools/{{$key}}">
+      <div>{{$key}}</div>
+    </a>
+  </li>
+  {{end}}
+</ul>
+{{ end }}

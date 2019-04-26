@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coaches on HC Swimsite</title>
+    <link>/roles/coaches/</link>
+    <description>Recent content in Coaches on HC Swimsite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/roles/coaches/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Adam Briggs</title>
+      <link>/people/people-adam-briggs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/people/people-adam-briggs/</guid>
+      <description>Adam Briggs has been involved with the HC Swim Club for 14 years, from a swimmer through to completing his Junior License Course. Whilst at HC, Adam has been mentored and coached through his swimming by Rachel Rickards and Harry Kink who have helped develop the skills to take on Junior Squad training back in 2009. Previous to this, Adam had also served as club captain for 2 years working with younger swimmers at swim meets and at training.</description>
+    </item>
+    
+    <item>
+      <title>Bianca Moore</title>
+      <link>/people/people-bianca-moore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/people/people-bianca-moore/</guid>
+      <description>Making champions of the Junior Racers</description>
+    </item>
+    
+    <item>
+      <title>Harry Kink</title>
+      <link>/people/people-harry-kink/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/people/people-harry-kink/</guid>
+      <description>The funniest coach</description>
+    </item>
+    
+    <item>
+      <title>Rachel Brennemo</title>
+      <link>/people/people-rachel-brennemo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/people/people-rachel-brennemo/</guid>
+      <description>Rachel Rickards (ASCTA Silver License) is the Head Coach. She has 20 years experience in coaching swimmers at the top level. Awarded the 2012 Tasmanian Coach of the Year, she coached the 2012-13 Tasmanian Swimmer of the Year and Tasmaninan Open Water Swimmer of the Year.</description>
+    </item>
+    
+  </channel>
+</rss>

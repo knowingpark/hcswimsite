@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swim Meets on HC Swimsite</title>
+    <link>/event_types/swim-meets/</link>
+    <description>Recent content in Swim Meets on HC Swimsite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Mar 2019 04:45:46 +0000</lastBuildDate>
+    
+	<atom:link href="/event_types/swim-meets/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Swimming Tas SC Regional Champs, Hobart</title>
+      <link>/events/events-swimming-tas-sc-regional-champs-hobart/</link>
+      <pubDate>Sat, 30 Mar 2019 04:45:46 +0000</pubDate>
+      
+      <guid>/events/events-swimming-tas-sc-regional-champs-hobart/</guid>
+      <description>SESSION 1 - Warm up is from 8am with the first event from 8.30am. SESSION 2 - Warm up is from 3pm with the first event from 3.30pm.</description>
+    </item>
+    
+    <item>
+      <title>2019 Swimming Tas SC Championships</title>
+      <link>/events/events-2019-swimming-tas-sc-championships/</link>
+      <pubDate>Sat, 30 Mar 2019 04:45:48 +0000</pubDate>
+      
+      <guid>/events/events-2019-swimming-tas-sc-championships/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swimming Tas SC Regional Champs, Launceston</title>
+      <link>/events/events-swimming-tas-sc-regional-champs-launceston/</link>
+      <pubDate>Sat, 30 Mar 2019 04:45:48 +0000</pubDate>
+      
+      <guid>/events/events-swimming-tas-sc-regional-champs-launceston/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

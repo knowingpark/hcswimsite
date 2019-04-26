@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<div class="{{ .Site.Params.css_sitecentre }}">
+	<div class="f2">{{.Title}}</div>
+
+	{{if .Params.ranks}}
+	<div>
+		{{ range .Params.ranks}}
+		 {{ . }}
+		{{end}}
+
+	</div>
+	{{end}}
+	<div>{{if .Params.phone}}Phone: {{.Params.phone}}{{end}}</div>
+	<div>{{if .Params.email}}Email: {{.Params.email}}{{end}}</div>
+
+	<div class="dt mw6 center pt0 pb5 pv5-m pv6-ns">
+		{{if .Params.photo}}
+		<div class="db dtc-ns v-mid-ns">
+			<img src="{{.Site.Params.baseURL}}/images/{{.Params.photo}}" alt="{{.Title}}" class="w-100 mw7 w5-ns" />
+		</div>
+		{{end}}
+		<div class="db dtc-ns v-mid ph2 pr0-ns pl3-ns">
+			<p class="lh-copy">
+				{{.Content}}
+			</p>
+		</div>
+	</div>
+</div>
+{{ end }}

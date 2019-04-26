@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Launceston Acquatic Centre on HC Swimsite</title>
+    <link>/pools/launceston-acquatic-centre/</link>
+    <description>Recent content in Launceston Acquatic Centre on HC Swimsite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Mar 2019 04:45:48 +0000</lastBuildDate>
+    
+	<atom:link href="/pools/launceston-acquatic-centre/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Swimming Tas SC Regional Champs, Launceston</title>
+      <link>/events/events-swimming-tas-sc-regional-champs-launceston/</link>
+      <pubDate>Sat, 30 Mar 2019 04:45:48 +0000</pubDate>
+      
+      <guid>/events/events-swimming-tas-sc-regional-champs-launceston/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

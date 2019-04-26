@@ -1,0 +1,35 @@
+{{ define "main" }}
+{{ $alert := "  bg-dark-blue pa3 br2"}}
+{{ $navclass := " link light-gray underline-hover " }}
+<!-- style="background:url('images/bg/waterblue3.jpg') no-repeat center; background-size: cover" -->
+<!-- style="background:url('images/bg/NationalSquad.jpg') no-repeat center; background-size: cover" -->
+<div class="wrapper pt3 pb3">
+	<div class="news {{ $alert }}">
+		{{ range (where .Pages.ByExpiryDate "Section" "events")}}
+		{{ if eq .Params.news "true"}}
+		<a href="{{.URL}}" class="f3 b {{ $navclass }}">
+			<span>NEWS:  {{ .Title }}</span>
+		</a>
+		{{ end}}
+		{{ end }}
+	</div>
+	<div class="event {{ $alert }}">
+		<a href="{{.Site.Params.baseURL}}/events"  class="f3 b {{ $navclass }}">
+			<span >NEXT EVENT:
+				{{ range first 1 (where .Pages.ByExpiryDate "Section" "events")}}
+				{{ .Title }}
+				{{ end }}
+			</span>
+		</a>
+	</div>
+	<div class="intro">
+		<h3>Welcome to the HC Swim Club</h3>
+		The Hutchins Collegiate Swim Club is a not-for-profit, family oriented, community club, open
+		to all swimmers.<br> It was established by both The Hutchins School and St Michaels Collegiate School
+		in 1990.<br>We are a vibrant swimming club that inspires, supports and prepares members to achieve their personal best, while striving for excellence within the sport of swimming.<br>Most of the information you need to know about the club can be found on this site. If you have any questions, please feel free to <a class="near-black" href="{{ .Site.Params.baseURL }}/roles/contacts">contact us</a>.
+	</div>
+	<div class="pgimg center">
+		<img id="bgimg" >
+	</div>
+</div>
+{{ end }}

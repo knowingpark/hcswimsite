@@ -1,0 +1,45 @@
+{{ define "main" }}
+{{ $navclass := .Site.Params.css_navclass_a }}
+{{ $list_card := .Site.Params.css_list_card}}
+
+<div class="f4 b pt2 pb2">Club Event List</div>
+
+{{ partial "tags" .}}
+<div temp="events_list" class="events_wrapper">
+
+	{{ range .Pages.ByExpiryDate }}
+		<div class="{{ $list_card }}">
+           <div class="f4 b pb2">
+                <a class="{{ $navclass }}" href="{{.URL}}">{{ .Title}}</a>
+           </div>
+            <div ><strong>When:</strong> {{ dateFormat "Monday, Jan 2, 2006" .ExpiryDate }} </div>
+            {{ if .Params.entries_close }}
+            <div ><strong>Enter by:</strong>
+              {{ if .Params.link }}
+                 <a class="{{ $navclass }}"  href="{{ .Params.link }}" target="_blank">{{ .Params.entries_close}}</a>
+
+              {{ else }}
+                {{ .Params.entries_close }}
+              {{ end }}
+            </div>
+            {{ end }}
+
+
+<!--                <div style="color:black; font-size:16px;">{{ if .Params.tags }}<strong>Tags:</strong> {{range .Params.tags}}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+               <div style="color:black; font-size:16px;">{{ if .Params.categories }}<strong>Categories:</strong> {{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div> -->
+           <div >
+           	{{ if .Params.pools }}
+           		<strong>Where:</strong>
+           		{{range .Params.pools}}
+           			<a class="{{ $navclass }}"  href="{{ "/pools/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+           		{{end}}
+           	{{end}}
+           </div>
+
+               <!-- <p>{{.Summary}}</p> -->
+        </div>
+	{{end}}
+</div>
+
+
+{{ end }}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Target on HC Swimsite</title>
+    <link>/squads/target/</link>
+    <description>Recent content in Target on HC Swimsite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/squads/target/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Target Squad</title>
+      <link>/squads/squads-target-squad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/squads/squads-target-squad/</guid>
+      <description>Squad description The Target Squad provides coaching and support for swimmers who are very committed to training and competing at the highest levels of competition. Swimmers will continue to develop all aspects of stroke technique, fitness and race skills with a focus on race strategy as they prepare for their competitions.
+This squad caters for swimmers who are eligible to compete at high levels of competition such as Victorian Age/Open Championships and Australian Age/Open Championships.</description>
+    </item>
+    
+  </channel>
+</rss>

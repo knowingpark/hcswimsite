@@ -1,0 +1,24 @@
+{{ define "main" }}
+{{ $list_card := .Site.Params.css_list_card}}
+{{ $navclass := .Site.Params.css_navclass_a }}
+<div class="pt2">
+     {{ partial "tags" .}}
+     <div temp="default_list" class="events_wrapper">
+          {{ range .Pages }}
+           <div class="{{ $list_card }} f4 b pb2">
+               <a class="{{ $navclass }}" href="{{.URL}}">{{ .Title }}  {{ if .Content }}...{{ end }}</a>
+               {{if .Params.ranks}}
+               <div class="pt2 f5">
+                    {{ range .Params.ranks}}
+                     {{ . }}
+                    {{end}}
+               </div>
+               {{end}}
+
+
+
+           </div>
+          {{ end }}
+     </div>
+</div>
+{{ end }}

@@ -1,0 +1,294 @@
+{
+    "Target": [
+        {
+            "day": "Monday",
+            "time": "Morning",
+            "session": "6.00a \u2013 7.30a",
+            "pool": "Collegiate",
+            "coach": "Rachael"
+        },
+        {
+            "day": "Monday",
+            "time": "Afternoon",
+            "session": "4.30p \u2013 6.00p",
+            "pool": "Hobart Aquatic Centre",
+            "coach": "Rachael"
+        },
+        {
+            "day": "Tuesday",
+            "time": "Morning",
+            "session": "6.00a \u2013 7.30a",
+            "pool": "Hobart Aquatic Centre",
+            "coach": "Rachael"
+        },
+        {
+            "day": "Wednesday",
+            "time": "Afternoon",
+            "session": "5.00p \u2013 6.30p",
+            "pool": "Collegiate",
+            "coach": "Adam"
+        },
+        {
+            "day": "Thursday",
+            "time": "Morning",
+            "session": "6.00a \u2013 7.30a",
+            "pool": "Collegiate",
+            "coach": "Rachael"
+        },
+        {
+            "day": "Thursday",
+            "time": "Afternoon",
+            "session": "5.00p \u2013 6.30p",
+            "pool": "Hobart Aquatic Centre",
+            "coach": "Rachael"
+        },
+        {
+            "day": "Friday",
+            "time": "Morning",
+            "session": "6.00a \u2013 7.30a",
+            "pool": "Collegiate",
+            "coach": "Rachael"
+        },
+        {
+            "day": "Saturday",
+            "time": "Morning",
+            "session": "6.00a \u2013 8.00a",
+            "pool": "Collegiate",
+            "coach": "Rachael"
+        }
+    ],
+    "Senior State": [
+        {
+            "day": "Monday",
+            "time": "Morning",
+            "session": "6.00a \u2013 7.30a",
+            "pool": "Hobart Aquatic Centre",
+            "coach": "Adam"
+        },
+        {
+            "day": "Monday",
+            "time": "Afternoon",
+            "session": "5.00p \u2013 6.30p",
+            "pool": "Hobart Aquatic Centre",
+            "coach": "Adam"
+        },
+        {
+            "day": "Tuesday",
+            "time": "Afternoon",
+            "session": "4.30p \u2013 6.00p",
+            "pool": "Collegiate",
+            "coach": "Harry"
+        },
+        {
+            "day": "Wednesday",
+            "time": "Morning",
+            "session": "6.00a \u2013 7.30a",
+            "pool": "Collegiate",
+            "coach": "Harry"
+        },
+        {
+            "day": "Wednesday",
+            "time": "Afternoon",
+            "session": "4.30p \u2013 6.00p",
+            "pool": "Hobart Aquatic Centre",
+            "coach": "Harry"
+        },
+        {
+            "day": "Thursday",
+            "time": "Afternoon",
+            "session": "5.00p \u2013 6.30p",
+            "pool": "Collegiate",
+            "coach": "Harry"
+        },
+        {
+            "day": "Friday",
+            "time": "Morning",
+            "session": "6.00a \u2013 7.30a",
+            "pool": "Collegiate",
+            "coach": "Adam"
+        },
+        {
+            "day": "Saturday",
+            "time": "Morning",
+            "session": "6.00a \u2013 7.30a",
+            "pool": "Collegiate",
+            "coach": "Adam"
+        }
+    ],
+    "State": [
+        {
+            "day": "Monday",
+            "time": "Morning",
+            "session": "6.00a \u2013 7.30a",
+            "pool": "Hobart Aquatic Centre",
+            "coach": "Adam"
+        },
+        {
+            "day": "Monday",
+            "time": "Afternoon",
+            "session": "5.00p \u2013 6.30p",
+            "pool": "Collegiate",
+            "coach": "Adam"
+        },
+        {
+            "day": "Tuesday",
+            "time": "Afternoon",
+            "session": "5.00p \u2013 6.30p",
+            "pool": "Collegiate",
+            "coach": "Harry"
+        },
+        {
+            "day": "Wednesday",
+            "time": "Morning",
+            "session": "6.00a \u2013 7.30a",
+            "pool": "Collegiate",
+            "coach": "Harry"
+        },
+        {
+            "day": "Wednesday",
+            "time": "Afternoon",
+            "session": "4.30p \u2013 6.00p",
+            "pool": "Hobart Aquatic Centre",
+            "coach": "Harry"
+        },
+        {
+            "day": "Thursday",
+            "time": "Afternoon",
+            "session": "5.00p \u2013 6.30p",
+            "pool": "Collegiate",
+            "coach": "Harry"
+        },
+        {
+            "day": "Friday",
+            "time": "Morning",
+            "session": "6.00a \u2013 7.30a",
+            "pool": "Collegiate",
+            "coach": "Adam"
+        },
+        {
+            "day": "Saturday",
+            "time": "Morning",
+            "session": "6.00a \u2013 7.30a",
+            "pool": "Collegiate",
+            "coach": "Adam"
+        }
+    ],
+    "Development": [
+        {
+            "day": "Monday",
+            "time": "Afternoon",
+            "session": "5.00p \u2013 6.30p",
+            "pool": "Collegiate",
+            "coach": "Harry"
+        },
+        {
+            "day": "Tuesday",
+            "time": "Afternoon",
+            "session": "5.00p \u2013 6.30p",
+            "pool": "Collegiate",
+            "coach": "Harry"
+        },
+        {
+            "day": "Wednesday",
+            "time": "Morning",
+            "session": "6.00a \u2013 7.30a",
+            "pool": "Collegiate",
+            "coach": "Harry"
+        },
+        {
+            "day": "Wednesday",
+            "time": "Afternoon",
+            "session": "4.30p \u2013 6.00p",
+            "pool": "Hobart Aquatic Centre",
+            "coach": "Harry"
+        },
+        {
+            "day": "Thursday",
+            "time": "Afternoon",
+            "session": "5.00p \u2013 6.30p",
+            "pool": "Collegiate",
+            "coach": "Harry"
+        },
+        {
+            "day": "Friday",
+            "time": "Morning",
+            "session": "6.00a \u2013 7.30a",
+            "pool": "Collegiate",
+            "coach": "Adam"
+        },
+        {
+            "day": "Saturday",
+            "time": "Morning",
+            "session": "6.00a \u2013 7.30a",
+            "pool": "Collegiate",
+            "coach": "Adam"
+        }
+    ],
+    "Junior": [
+        {
+            "day": "Monday",
+            "time": "Afternoon",
+            "session": "4.00p \u2013 5.00p",
+            "pool": "Collegiate",
+            "coach": "Harry"
+        },
+        {
+            "day": "Tuesday",
+            "time": "Afternoon",
+            "session": "4.00p \u2013 5.00p",
+            "pool": "Collegiate",
+            "coach": "Harry"
+        },
+        {
+            "day": "Wednesday",
+            "time": "Afternoon",
+            "session": "4.00p \u2013 5.00p",
+            "pool": "Collegiate",
+            "coach": "Adam"
+        },
+        {
+            "day": "Thursday",
+            "time": "Afternoon",
+            "session": "4.00p \u2013 5.00p",
+            "pool": "Collegiate",
+            "coach": "Harry"
+        },
+        {
+            "day": "Friday",
+            "time": "Afternoon",
+            "session": "4.00p \u2013 5.00p",
+            "pool": "Collegiate",
+            "coach": "Adam"
+        }
+    ],
+    "Junior Racers": [
+        {
+            "day": "Monday",
+            "time": "Afternoon",
+            "session": "4.00p \u2013 5.00p",
+            "pool": "Collegiate",
+            "coach": "Harry"
+        },
+        {
+            "day": "Tuesday",
+            "time": "Afternoon",
+            "session": "4.00p \u2013 5.00p",
+            "pool": "Collegiate",
+            "coach": "Bianca"
+        },
+        {
+            "day": "Thursday",
+            "time": "Afternoon",
+            "session": "4.00p \u2013 5.00p",
+            "pool": "Collegiate",
+            "coach": "Bianca"
+        },
+        {
+            "day": "Friday",
+            "time": "Afternoon",
+            "session": "4.00p \u2013 5.00p",
+            "pool": "Collegiate",
+            "coach": "Adam"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{{ define "main" }}
+{{$squadname := index .Params.squads 0 }}
+<div temp="squad_single" class=" {{ .Site.Params.css_sitecentre }}">
+  <h1 class='f2'>{{$squadname}} squad</h1>
+  <h2 class='f3'>Sessions Times</h2>
+  <div class="pa4">
+    <div class="overflow-auto">
+      <table class="f6 w-100 mw8 center" cellspacing="0">
+        <thead>
+          <tr>
+            <th class="fw6 bb b--black-20 tl pb3 pr3 ">Day</th>
+            <th class="fw6 bb b--black-20 tl pb3 pr3 ">Session</th>
+            <th class="fw6 bb b--black-20 tl pb3 pr3 ">Time</th>
+            <th class="fw6 bb b--black-20 tl pb3 pr3 ">Pool</th>
+            <th class="fw6 bb b--black-20 tl pb3 pr3 ">Coach</th>
+          </tr>
+        </thead>
+        <tbody class="lh-copy">
+          {{ range $row := index .Site.Data.sessions $squadname }}
+          <tr>
+            <td class="pv3 pr3 bb b--black-20">{{ $row.day }}</td>
+            <td class="pv3 pr3 bb b--black-20">{{ $row.time }}</td>
+            <td class="pv3 pr3 bb b--black-20">{{ $row.session }}</td>
+            <td class="pv3 pr3 bb b--black-20">{{ $row.pool }}</td>
+            <td class="pv3 pr3 bb b--black-20">{{ $row.coach }}</td>
+          </tr>
+          {{end}}
+        </tbody>
+      </table>
+    </div>
+  </div>
+   {{ .Content }}
+</div>
+
+{{ end }}

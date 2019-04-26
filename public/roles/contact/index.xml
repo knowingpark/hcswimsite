@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contact on HC Swimsite</title>
+    <link>http://example.org/roles/contact/</link>
+    <description>Recent content in Contact on HC Swimsite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/roles/contact/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Collegiate Pool</title>
+      <link>http://example.org/people/collegiate-pool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/people/collegiate-pool/</guid>
+      <description>The Collegiate Pool is a 25m, six-lane, heated indoor pool located on the corner of Molle &amp;amp; Davey Street in the city of Hobart. The Collegiate Pool is open to the public and offers a safe, clean and friendly environment to swim.
+Entry to the Collegiate Pool is via the School entrance on the corner of Molle / Macquarie Streets.
+We are open seven days a week and offer:
+Learn to Swim Lap Swimming Fitness Squad training options  Our professional teachers provided quality service and are passionate about assisting individual&amp;rsquo;s to improve their health, fitness and life skills.</description>
+    </item>
+    
+    <item>
+      <title>Jane Pederson</title>
+      <link>http://example.org/people/jane-pederson/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/people/jane-pederson/</guid>
+      <description>The place would fall apart without her</description>
+    </item>
+    
+  </channel>
+</rss>

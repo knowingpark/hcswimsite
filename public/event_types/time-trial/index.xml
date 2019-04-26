@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Time Trial on HC Swimsite</title>
+    <link>http://example.org/event_types/time-trial/</link>
+    <description>Recent content in Time Trial on HC Swimsite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Mar 2019 04:39:28 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/event_types/time-trial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Swimming Tasmania LC Time Trial, Hobart</title>
+      <link>http://example.org/events/swimming-tasmania-lc-time-trial-hobart/</link>
+      <pubDate>Sat, 30 Mar 2019 04:39:28 +0000</pubDate>
+      
+      <guid>http://example.org/events/swimming-tasmania-lc-time-trial-hobart/</guid>
+      <description>Book on MyLane. Warm up is from 3pm with the first event from 3.30pm.</description>
+    </item>
+    
+  </channel>
+</rss>

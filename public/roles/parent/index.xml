@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Parent on HC Swimsite</title>
+    <link>http://example.org/roles/parent/</link>
+    <description>Recent content in Parent on HC Swimsite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/roles/parent/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Danielle Walker</title>
+      <link>http://example.org/people/danielle-walker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/people/danielle-walker/</guid>
+      <description>Maude&amp;rsquo;s mum</description>
+    </item>
+    
+    <item>
+      <title>Jane Castle</title>
+      <link>http://example.org/people/jane-castle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/people/jane-castle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jane Pederson</title>
+      <link>http://example.org/people/jane-pederson/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/people/jane-pederson/</guid>
+      <description>The place would fall apart without her</description>
+    </item>
+    
+    <item>
+      <title>Julian Ebeli</title>
+      <link>http://example.org/people/julian-ebeli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/people/julian-ebeli/</guid>
+      <description>Julian made our website</description>
+    </item>
+    
+    <item>
+      <title>Kylie Jones</title>
+      <link>http://example.org/people/kylie-jones/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/people/kylie-jones/</guid>
+      <description>The place would fall apart without her</description>
+    </item>
+    
+  </channel>
+</rss>

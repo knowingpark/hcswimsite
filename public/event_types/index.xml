@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Event_types on HC Swimsite</title>
+    <link>/event_types/</link>
+    <description>Recent content in Event_types on HC Swimsite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/event_types/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Socials</title>
+      <link>/event_types/socials/</link>
+      <pubDate>Sun, 31 Mar 2019 02:56:20 +0000</pubDate>
+      
+      <guid>/event_types/socials/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swim Meets</title>
+      <link>/event_types/swim-meets/</link>
+      <pubDate>Sat, 30 Mar 2019 04:45:46 +0000</pubDate>
+      
+      <guid>/event_types/swim-meets/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  {{ partial "head" . }}
+  <body  style="font-family: 'Poppins', sans-serif;" class=" w-90 center dark-blue bg-black-10">
+    <div class="layout">
+      <div class="menu">{{ partial "nav" .}}</div>
+      <div class="content">
+        {{ block "main" . }}
+        {{end}}
+      </div>
+      <div class="footer bt pt2">{{ partial "footer" .}}</div>
+    </div>
+  </body>
+  <script type="text/javascript">getbackground()</script>
+</html>

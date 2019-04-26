@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Collegiate on HC Swimsite</title>
+    <link>/pools/collegiate/</link>
+    <description>Recent content in Collegiate on HC Swimsite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Apr 2019 00:05:46 +0000</lastBuildDate>
+    
+	<atom:link href="/pools/collegiate/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Join</title>
+      <link>/club/club-how-to-join/</link>
+      <pubDate>Sat, 06 Apr 2019 00:05:46 +0000</pubDate>
+      
+      <guid>/club/club-how-to-join/</guid>
+      <description>To join the club, you make contact with the collegiate pool
+How to Join HC Swim Club Memberships &amp;amp; Swimming Season Club membership is annual (1 Oct – 30 Sep) and is aligned with Swimming Tasmania (STAS) registration. This means that there is one annual registration/renewal process which includes both the Club and STAS membership. Club membership and STAS membership are compulsory for all squad members as this ensures that both the Club and swimmers are insured.</description>
+    </item>
+    
+  </channel>
+</rss>
