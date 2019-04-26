@@ -5,17 +5,20 @@
 <!-- style="background:url('images/bg/NationalSquad.jpg') no-repeat center; background-size: cover" -->
 <div class="wrapper pt3 pb3">
 	<div class="news {{ $alert }}">
+		<span class="light-gray">NEWS:</span>
 		{{ range (where .Pages.ByExpiryDate "Section" "events")}}
 		{{ if eq .Params.news "true"}}
-		<a href="{{.URL}}" class="f3 b {{ $navclass }}">
-			<span>NEWS:  {{ .Title }}</span>
+		<a href="{{.URL}}" class="db f3 b {{ $navclass }}">
+			<span>{{ .Title }}</span>
 		</a>
 		{{ end}}
 		{{ end }}
 	</div>
 	<div class="event {{ $alert }}">
-		<a href="{{.Site.Params.baseURL}}/events"  class="f3 b {{ $navclass }}">
-			<span >NEXT EVENT:
+		<span class="light-gray">NEXT EVENT:</span>
+		<a href="{{.Site.Params.baseURL}}/events"  class="db f3 b {{ $navclass }}">
+
+			<span>
 				{{ range first 1 (where .Pages.ByExpiryDate "Section" "events")}}
 				{{ .Title }}
 				{{ end }}

@@ -5,6 +5,7 @@
   <link rel="stylesheet"  href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
   <link rel="stylesheet" type="text/css" href="/css/grid.css">
   <script type="text/javascript" src="/js/functions.js"></script>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <title>How to Join</title>
 </head>
 
@@ -217,5 +218,16 @@ HC Swim Club Trial Application Form must be completed (as provided by our Coach
 </div>
     </div>
   </body>
+  <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
   <script type="text/javascript">getbackground()</script>
 </html>

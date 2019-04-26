@@ -5,6 +5,7 @@
   <link rel="stylesheet"  href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
   <link rel="stylesheet" type="text/css" href="/css/grid.css">
   <script type="text/javascript" src="/js/functions.js"></script>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <title>Events</title>
 </head>
 
@@ -49,6 +50,12 @@
   <li class=" dib ">Event Types:</li>
   
   <li class="dib ml3">
+    <a class="  link dark-blue underline-hover  " href="/event_types/masters-sinkathon">
+      <div>masters-sinkathon</div>
+    </a>
+  </li>
+  
+  <li class="dib ml3">
     <a class="  link dark-blue underline-hover  " href="/event_types/socials">
       <div>socials</div>
     </a>
@@ -76,6 +83,33 @@
 
 <div temp="events_list" class="events_wrapper">
 
+	
+		<div class=" ba br2 pa2 bg-lightest-blue">
+           <div class="f4 b pb2">
+                <a class=" link dark-blue underline-hover " href="/events/events-masters-sinkathon/">Masters Sinkathon</a>
+           </div>
+            <div ><strong>When:</strong> Friday, May 17, 2019 </div>
+            
+            <div ><strong>Enter by:</strong>
+              
+                2019-05-16T14:00:00.000Z
+              
+            </div>
+            
+
+
+
+           <div >
+           	
+           		<strong>Where:</strong>
+           		
+           			<a class=" link dark-blue underline-hover "  href="/pools/collegiate">Collegiate</a>
+           		
+           	
+           </div>
+
+               
+        </div>
 	
 		<div class=" ba br2 pa2 bg-lightest-blue">
            <div class="f4 b pb2">
@@ -222,5 +256,16 @@
 </div>
     </div>
   </body>
+  <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
   <script type="text/javascript">getbackground()</script>
 </html>

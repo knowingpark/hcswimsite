@@ -6,6 +6,7 @@
   <link rel="stylesheet"  href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
   <link rel="stylesheet" type="text/css" href="/css/grid.css">
   <script type="text/javascript" src="/js/functions.js"></script>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <title>HC Swimsite</title>
 </head>
 
@@ -42,6 +43,12 @@
 
 <div class="wrapper pt3 pb3">
 	<div class="news   bg-dark-blue pa3 br2">
+		<span>NEWS:</span>
+		
+		
+		<a href="/events/events-masters-sinkathon/" class="db f3 b  link light-gray underline-hover ">
+			<span>Masters Sinkathon</span>
+		</a>
 		
 		
 		
@@ -50,17 +57,19 @@
 		
 		
 		
-		<a href="/events/events-2019-swimming-tas-sc-championships/" class="f3 b  link light-gray underline-hover ">
-			<span>NEWS:  2019 Swimming Tas SC Championships</span>
+		
+		<a href="/events/events-2019-swimming-tas-sc-championships/" class="db f3 b  link light-gray underline-hover ">
+			<span>2019 Swimming Tas SC Championships</span>
 		</a>
 		
 		
 	</div>
 	<div class="event   bg-dark-blue pa3 br2">
 		<a href="/events"  class="f3 b  link light-gray underline-hover ">
-			<span >NEXT EVENT:
+			<span >NEXT EVENT:</span>
+			<span>
 				
-				2019 Annual Celebration Dinner
+				Masters Sinkathon
 				
 			</span>
 		</a>
@@ -117,5 +126,16 @@
 </div>
     </div>
   </body>
+  <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
   <script type="text/javascript">getbackground()</script>
 </html>

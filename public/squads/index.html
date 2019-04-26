@@ -5,6 +5,7 @@
   <link rel="stylesheet"  href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
   <link rel="stylesheet" type="text/css" href="/css/grid.css">
   <script type="text/javascript" src="/js/functions.js"></script>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <title>Squads</title>
 </head>
 
@@ -99,7 +100,7 @@
      <div temp="default_list" class="events_wrapper">
           
            <div class=" ba br2 pa2 bg-lightest-blue f4 b pb2">
-               <a class=" link dark-blue underline-hover " href="/squads/development/">Development  </a>
+               <a class=" link dark-blue underline-hover " href="/squads/squads-target-squad/">Target Squad  ...</a>
                
 
 
@@ -107,7 +108,7 @@
            </div>
           
            <div class=" ba br2 pa2 bg-lightest-blue f4 b pb2">
-               <a class=" link dark-blue underline-hover " href="/squads/junior/">Junior  </a>
+               <a class=" link dark-blue underline-hover " href="/squads/squads-senior-state-squad/">Senior State Squad  </a>
                
 
 
@@ -115,7 +116,7 @@
            </div>
           
            <div class=" ba br2 pa2 bg-lightest-blue f4 b pb2">
-               <a class=" link dark-blue underline-hover " href="/squads/junior-racers/">Junior Racers  </a>
+               <a class=" link dark-blue underline-hover " href="/squads/squads-state-squad/">State Squad  </a>
                
 
 
@@ -123,7 +124,7 @@
            </div>
           
            <div class=" ba br2 pa2 bg-lightest-blue f4 b pb2">
-               <a class=" link dark-blue underline-hover " href="/squads/senior-state/">Senior State  </a>
+               <a class=" link dark-blue underline-hover " href="/squads/squads-development-squad/">Development Squad  </a>
                
 
 
@@ -131,7 +132,7 @@
            </div>
           
            <div class=" ba br2 pa2 bg-lightest-blue f4 b pb2">
-               <a class=" link dark-blue underline-hover " href="/squads/state/">State  </a>
+               <a class=" link dark-blue underline-hover " href="/squads/squads-junior-squad/">Junior Squad  </a>
                
 
 
@@ -139,7 +140,7 @@
            </div>
           
            <div class=" ba br2 pa2 bg-lightest-blue f4 b pb2">
-               <a class=" link dark-blue underline-hover " href="/squads/target/">Target  </a>
+               <a class=" link dark-blue underline-hover " href="/squads/squads-junior-racers-squad/">Junior Racers Squad  ...</a>
                
 
 
@@ -190,14 +191,16 @@
 </div>
     </div>
   </body>
-  <script type="text/javascript">getbackground()</script>
-</html>
-/svg>
-    </a>
-  </ul>
-  
-</div>
-    </div>
-  </body>
+  <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
   <script type="text/javascript">getbackground()</script>
 </html>

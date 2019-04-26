@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Health on HC Swimsite</title>
+    <link>/topics/health/</link>
+    <description>Recent content in Health on HC Swimsite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Apr 2019 08:03:11 +0000</lastBuildDate>
+    
+	<atom:link href="/topics/health/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cleanliness</title>
+      <link>/club/club-cleanliness/</link>
+      <pubDate>Fri, 26 Apr 2019 08:03:11 +0000</pubDate>
+      
+      <guid>/club/club-cleanliness/</guid>
+      <description>Don&amp;rsquo;t forget to dry your toes</description>
+    </item>
+    
+  </channel>
+</rss>

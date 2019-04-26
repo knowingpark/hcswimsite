@@ -245,5 +245,23 @@ Required equipment  Goggles (plus a spare pair in your swim bag Club cap (plus a
       <description>The funniest coach</description>
     </item>
     
+    <item>
+      <title>Masters Sinkathon</title>
+      <link>/events/events-masters-sinkathon/</link>
+      <pubDate>Fri, 26 Apr 2019 10:09:23 +0000</pubDate>
+      
+      <guid>/events/events-masters-sinkathon/</guid>
+      <description>A new event for the oldies</description>
+    </item>
+    
+    <item>
+      <title>Cleanliness</title>
+      <link>/club/club-cleanliness/</link>
+      <pubDate>Fri, 26 Apr 2019 08:03:11 +0000</pubDate>
+      
+      <guid>/club/club-cleanliness/</guid>
+      <description>Don&amp;rsquo;t forget to dry your toes</description>
+    </item>
+    
   </channel>
 </rss>

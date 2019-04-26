@@ -1,0 +1,33 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+publish_mode: editorial_workflow
+media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+collections:
+  - name: "club" # Used in routes, e.g., /admin/collections/blog
+    label: "Club" # Used in the UI
+    folder: "content/club" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "club-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Topics", name: "topics", widget: "list"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "events" # Used in routes, e.g., /admin/collections/blog
+    label: "Events" # Used in the UI
+    folder: "content/events" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "events-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "News", name: "news", widget: "boolean"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Expiry Date", name: "expirydate", widget: "datetime"}
+      - {label: "Enter By", name: "entries_close", widget: "datetime"}
+      - {label: "Event Type", name: "event_types", widget: "list"}
+      - {label: "Pool", name: "pools", widget: "list"}
+      - {label: "Course", name: "courses", widget: "list"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
