@@ -8,3 +8,8 @@ display: grid;
   https://bit.ly/2DzGrZQ
 
   https://app.netlify.com/sites/relaxed-wescoff-a7f5a3/overview
+
+
+Failed to persist entry: API_ERROR: refs/heads/cms/events-2019 Annual Celebration Dinner is not a valid ref name.
+
+Failed to persist entry: API_ERROR:  is not a valid ref name.
