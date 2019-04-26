@@ -13,7 +13,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Topics", name: "topics", widget: "list"}
+      - {label: "Topics", name: "topics", widget: "select", options: ["Club","Progression"], required: false, multiple: true}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "events" # Used in routes, e.g., /admin/collections/blog
     label: "Events" # Used in the UI
@@ -24,10 +24,11 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "News", name: "news", widget: "boolean"}
       - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Link", name: "link", widget: "text"}
       - {label: "Expiry Date", name: "expirydate", widget: "datetime"}
-      - {label: "Enter By", name: "entries_close", widget: "datetime"}
-      - {label: "Event Type", name: "event_types", widget: "list"}
-      - {label: "Pool", name: "pools", widget: "list"}
-      - {label: "Course", name: "courses", widget: "list"}
+      - {label: "Enter By", name: "entries_close", widget: "datetime", required: false}
+      - {label: "Event Type", name: "event_types", widget: "select", options: ["Swim Meets","Training","Swim Camps","Committee","Time Trials","Land Based Training","Socials","Club"], required: false, multiple: true}
+      - {label: "Pool", name: "pools", widget: "select", options: ["Collegiate","Hobart Aquatic Centre","Launceston Acquatic Centre"], required: false, multiple: true}
+      - {label: "Course", name: "courses", widget: "select", options: ["Long","Short"], required: false, multiple: true}
       - {label: "Body", name: "body", widget: "markdown"}
 

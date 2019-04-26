@@ -11,57 +11,62 @@
     
     
     <item>
-      <title>Development</title>
-      <link>/squads/development/</link>
+      <title>Target Squad</title>
+      <link>/squads/squads-target-squad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/squads/development/</guid>
+      <guid>/squads/squads-target-squad/</guid>
+      <description>Squad description The Target Squad provides coaching and support for swimmers who are very committed to training and competing at the highest levels of competition. Swimmers will continue to develop all aspects of stroke technique, fitness and race skills with a focus on race strategy as they prepare for their competitions.
+This squad caters for swimmers who are eligible to compete at high levels of competition such as Victorian Age/Open Championships and Australian Age/Open Championships.</description>
+    </item>
+    
+    <item>
+      <title>Senior State Squad</title>
+      <link>/squads/squads-senior-state-squad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/squads/squads-senior-state-squad/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Junior</title>
-      <link>/squads/junior/</link>
+      <title>State Squad</title>
+      <link>/squads/squads-state-squad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/squads/junior/</guid>
+      <guid>/squads/squads-state-squad/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Junior Racers</title>
-      <link>/squads/junior-racers/</link>
+      <title>Development Squad</title>
+      <link>/squads/squads-development-squad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/squads/junior-racers/</guid>
+      <guid>/squads/squads-development-squad/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Senior State</title>
-      <link>/squads/senior-state/</link>
+      <title>Junior Squad</title>
+      <link>/squads/squads-junior-squad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/squads/senior-state/</guid>
+      <guid>/squads/squads-junior-squad/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>State</title>
-      <link>/squads/state/</link>
+      <title>Junior Racers Squad</title>
+      <link>/squads/squads-junior-racers-squad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/squads/state/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Target</title>
-      <link>/squads/target/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/squads/target/</guid>
-      <description></description>
+      <guid>/squads/squads-junior-racers-squad/</guid>
+      <description>Squad description The Junior Racers Squad is the natural progression from Learn to Swim lessons. Swimmers learn training/racing skills which they practice at club meets and Swimming Tasmania Qualifying Trials
+Junior Racers train for 42 weeks per year.
+Costs Club membership (includes Swimming Tasmania registration) 6 – 8 years old $105 9 years old - $160
+Coaching fee (includes Pool Pass) - $90 per month
+Required equipment  Goggles (plus a spare pair in your swim bag Club cap (plus a spare cap in your swim bag) Drink bottle Mesh swimming bag Kickboard Flippers  Training sessions White Tag squad members are encouraged to attend 2 -3 training sessions a week.</description>
     </item>
     
   </channel>
