@@ -11,5 +11,16 @@
       <div class="footer bt pt2">{{ partial "footer" .}}</div>
     </div>
   </body>
+  <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
   <script type="text/javascript">getbackground()</script>
 </html>
