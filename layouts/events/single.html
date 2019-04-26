@@ -1,21 +1,28 @@
 {{ define "main" }}
 {{ $navclass := .Site.Params.css_navclass_a }}
-	This is the event single template <br>
-
-
-     <div class="">
-          <h1>{{.Title}}</h1>
-          <div>When: {{ dateFormat "Monday, Jan 2, 2006" .ExpiryDate }}</div>
-          <div>{{if .Params.pools}}Where:
-          	{{range .Params.pools}}
-           			<a class="{{ $navclass}} " href="{{ "/pools/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-           		{{end}}
-          {{end}}</div>
-          <div>{{if .Params.author}}Author: {{.Params.Author}}{{end}}</div>
-          <div>{{if .Params.author}}Author: {{.Params.Author}}{{end}}</div>
-          <div>{{if .Params.author}}Author: {{.Params.Author}}{{end}}</div>
-          <div>{{.Content}}</div>
-     </div>
-     <p>Default event single page</p>
+<div class="">
+  <h1>{{.Title}}</h1>
+  <div>
+  <strong>When:</strong> {{ dateFormat "Monday, Jan 2, 2006" .ExpiryDate }} </div>
+  {{ if .Params.entries_close }}
+  <div ><strong>Enter by:</strong>
+    {{ if .Params.link }}
+    <a class="{{ $navclass }}"  href="{{ .Params.link }}" target="_blank">
+      {{ dateFormat "Monday, Jan 2, 2006" .Params.entries_close }}
+    </a>
+    {{ else }}
+    {{ dateFormat "Monday, Jan 2, 2006" .Params.entries_close }}
+    {{ end }}
+  </div>
+  {{ end }}
+  <div >
+    {{ if .Params.pools }}
+    <strong>Where:</strong>
+    {{range .Params.pools}}
+    <a class="{{ $navclass }}"  href="{{ "/pools/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+    {{end}}
+    {{end}}
+  </div>
+  <div>{{.Content}}</div>
+</div>
 {{ end }}
-

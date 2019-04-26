@@ -16,10 +16,11 @@
             {{ if .Params.entries_close }}
             <div ><strong>Enter by:</strong>
               {{ if .Params.link }}
-                 <a class="{{ $navclass }}"  href="{{ .Params.link }}" target="_blank">{{ .Params.entries_close}}</a>
-
+                 <a class="{{ $navclass }}"  href="{{ .Params.link }}" target="_blank">
+                 {{ dateFormat "Monday, Jan 2, 2006" .Params.entries_close }}
+               </a>
               {{ else }}
-                {{ .Params.entries_close }}
+                {{ dateFormat "Monday, Jan 2, 2006" .Params.entries_close }}
               {{ end }}
             </div>
             {{ end }}

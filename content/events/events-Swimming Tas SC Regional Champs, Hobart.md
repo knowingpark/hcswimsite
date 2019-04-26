@@ -13,4 +13,5 @@ pools: ['Hobart Aquatic Centre']
 courses: ['Short']
 ---
 SESSION 1 - Warm up is from 8am with the first event from 8.30am.
+
 SESSION 2 - Warm up is from 3pm with the first event from 3.30pm.
