@@ -1,12 +1,9 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "HC Swimsite"
-#theme = "ga-hugo-theme"
 club_email = "hcswimclub@hotmail.com"
 club_phone = "03 6211 4919"
 [taxonomies]
-#	tag = "tags"
-#	category = "categories"
 	event_type = "event_types"
 	person = "people"
 	squad = "squads"
