@@ -4,8 +4,8 @@ backend:
 publish_mode: editorial_workflow
 site_url: https://relaxed-wescoff-a7f5a3.netlify.com/
 display_url: https://relaxed-wescoff-a7f5a3.netlify.com/
-media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+media_folder: "static/images/" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/" # The src attribute for uploaded media will begin with /images/uploads
 collections:
   - name: "club" # Used in routes, e.g., /admin/collections/blog
     label: "Club" # Used in the UI
