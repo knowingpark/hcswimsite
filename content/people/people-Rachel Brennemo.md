@@ -11,7 +11,7 @@ squads: []
 email: 'rachel@email.com'
 phone: ''
 relation: ''
-photo: 'coach/rachelrickards.jpg'
+photo: 'rachelrickards.jpg'
 ---
 Rachel Rickards (ASCTA Silver License) is the Head Coach.  She has 20 years experience in coaching swimmers at the top level.
 Awarded the 2012 Tasmanian Coach of the Year, she coached the 2012-13 Tasmanian Swimmer of the Year and Tasmaninan Open Water Swimmer of the Year.

@@ -4,7 +4,7 @@ Array.prototype.sample = function(){
   return this[Math.floor(Math.random()*this.length)];
 }
 
-var myArray = ['HC_Swim_Club_Feature_Pic.jpg', 'NationalSquad.jpg', 'Jack_Evans.jpg', 'IMG_8016_1.jpg'];
+var myArray = ["Backstroke.jpg","HC_Swim_Club_Feature_Pic.jpg","IMG_7818.jpg","IMG_8016_1.jpg","Jack_Evans.jpg","NationalSquad.jpg"];
 
 makepick = function(){
   return myArray.sample()

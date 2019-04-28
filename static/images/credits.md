@@ -1,1 +1,0 @@
-Photo by Anna Sullivan on Unsplash
