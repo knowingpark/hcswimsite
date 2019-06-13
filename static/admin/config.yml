@@ -46,7 +46,7 @@ collections:
       - {label: "Joined", name: "joined", widget: "date", required: false}
       - {label: "Photo", name: "photo", widget: "image", required: false, allow_multiple: false}
       - {label: "Role", name: "roles", widget: "select", options: ["Coaches","Committee","Contacts"], required: false, multiple: true}
-      - {label: "Rank", name: "rank", widget: "select", options: ["President","Vice President","Head Coach","Club Captain","Main Contact"], required: false, multiple: true}
+      - {label: "Rank", name: "ranks", widget: "select", options: ["President","Vice President","Head Coach","Club Captain","Main Contact"], required: false, multiple: true}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "squads"
     label: "Squads"
