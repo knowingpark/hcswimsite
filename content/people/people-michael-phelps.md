@@ -6,7 +6,7 @@ joined: 2019-04-28T06:52:27.543Z
 photo: /images/phelps.jpeg
 roles:
   - Contacts
-rank:
+ranks:
   - Club Captain
 ---
 Best male swimmer in history
